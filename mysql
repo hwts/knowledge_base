@@ -18,4 +18,6 @@ Mysql
   Создание бд и полльзователей:
     
     Создание БД:
-      CREATE
+      
+      CREATE DATABASE test_db;
+      
