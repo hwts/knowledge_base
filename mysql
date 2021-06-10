@@ -1,0 +1,21 @@
+Mysql
+
+  Установка и базовая настройка:
+   
+    Обноление информации о пакетах и установка серверной части(в некоторых случаях необходимо добавить репозитории mysql):
+    
+      sudo apt-get update
+      sudo apt-get install mysql-server
+      
+    Настройки безопасности mysql:
+    
+      sudo mysql_secure_installation
+      
+    Подключение к mysql cli:
+    
+      mysql -u {{ user }} -p
+      
+  Создание бд и полльзователей:
+    
+    Создание БД:
+      CREATE
